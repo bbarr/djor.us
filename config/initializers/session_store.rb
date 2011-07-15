@@ -1,8 +1,8 @@
 # Be sure to restart your server when you modify this file.
 
-Dujor::Application.config.session_store :cookie_store, :key => '_Dujor_session'
+DjorUs::Application.config.session_store :cookie_store, :key => '_DjorUs_session'
 
 # Use the database for sessions instead of the cookie-based default,
 # which shouldn't be used to store highly confidential information
 # (create the session table with "rails generate session_migration")
-# Dujor::Application.config.session_store :active_record_store
+# DjorUs::Application.config.session_store :active_record_store

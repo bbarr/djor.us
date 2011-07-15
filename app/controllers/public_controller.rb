@@ -1,5 +1,5 @@
 class PublicController < ApplicationController
   def index
-    'hi'
+    render :text => 'hi'
   end
 end
